@@ -1,0 +1,140 @@
+/* <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Ubuntu:wght@300&display=swap');
+</style> */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg, #fafafb, rgb(245, 152, 90));
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #030202;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.topleft{
+    width: 50%;
+    
+}
+.topright {
+    width: 60%;
+   
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: rgb(105, 27, 3);
+}
+
+.section1 p{
+    text-align: justify;
+    line-height: 1.4em;
+    color: rgb(29, 4, 4);
+    
+}
+
+.dumbbell{
+    width: 40%;    
+}
+
+.gym{
+    padding-top: 0px;
+    padding-left: 15px;
+    width: 650px;
+}
+.section2{
+    padding: 73px;
+}
+.section2 h1{
+    font-size: 2.4rem;
+}
+
+.section2 p{
+    text-align: center;
+    padding: 0 8vw;
+}
+
+.box{
+    padding: 12px 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+    color: rgb(34, 34, 88);
+    text-shadow: 5px 6px 30px rgb(0, 145, 255);
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 2.3rem;    
+}
+.section3{
+   padding: 73px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
